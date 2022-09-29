@@ -15,12 +15,11 @@ console.log('--- in execution phase ---');
 
   life cycle:
 
-  the mistake:
+  the mistake: continued a string on a new line
 
-  the fix(es):
+  the fix(es): continue our string on one line
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines';
 
 

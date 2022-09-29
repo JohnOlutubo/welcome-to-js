@@ -8,9 +8,14 @@
     'abcdef' -> 'too long'
 
   experiment 1
-    line:
-    why:
-    trying:
+    line: 26
+    why: There's an =
+    trying: remove the =
+
+  experiment 2
+    line: 29
+    why: There's an =
+    trying: remove the =
 
 */
 
@@ -18,9 +23,10 @@ let input = prompt('enter something 5 characters long');
 
 if (input === null) {
   alert(':(');
-} else if (input.length <= 5) {
+// } else if (input.length <= 5) {
+} else if (input.length < 5) {
   alert('too short');
-} else if (input.length >= 5) {
+} else if (input.length > 5) {
   alert('too long');
 } else {
   alert('perfect');

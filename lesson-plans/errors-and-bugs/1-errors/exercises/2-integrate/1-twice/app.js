@@ -11,13 +11,13 @@ import {
   name:
   message:
 
-  location:
+  location: line 32
 
-  life cycle:
+  life cycle: 
 
-  the mistake:
+  the mistake: used + intead of =
 
-  the fix(es):
+  the fix(es): use =
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +29,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

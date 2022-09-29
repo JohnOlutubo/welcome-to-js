@@ -16,12 +16,12 @@ console.log('--- in execution phase ---');
 
   life cycle:
 
-  the mistake:
+  the mistake: using a number in const
 
-  the fix(es):
+  the fix(es): change the namez to letters
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 

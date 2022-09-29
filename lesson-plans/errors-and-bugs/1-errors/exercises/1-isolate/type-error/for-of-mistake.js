@@ -12,12 +12,12 @@ console.log('--- in execution phase ---');
 
   life cycle:
 
-  the mistake:
+  the mistake: using a number instead of string
 
-  the fix(es):
+  the fix(es): change it string
 */
 
-const maxNumber = 6;
+const maxNumber = "6ghfhfghf";
 
 for (const i of maxNumber) {
   console.log(i); // 0, 1, 2, 3, 4, 5

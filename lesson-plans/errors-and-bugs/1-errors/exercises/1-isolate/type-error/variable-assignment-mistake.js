@@ -15,13 +15,13 @@ console.log('--- in execution phase ---');
 
   life cycle:
 
-  the mistake:
+  the mistake: wrongly assigned
 
-  the fix(es):
+  the fix(es): put isHappy on the left
 */
 
 let isHappy = false;
 
-true = isHappy;
+isHappy = true;
 
 

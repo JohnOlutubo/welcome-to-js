@@ -12,11 +12,11 @@ console.log('--- in execution phase ---');
 
   life cycle:
 
-  the mistake:
+  the mistake: declaring the same var twice
 
-  the fix(es):
+  the fix(es): remove the second let and just assign on line 22
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+tree = 'birch';

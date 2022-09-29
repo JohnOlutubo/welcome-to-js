@@ -9,9 +9,9 @@
 
 
   experiment 1
-    line:
-    why:
-    trying:
+    line: 25
+    why: two mirror and one character
+    trying: add char mirr char
 
 */
 
@@ -22,7 +22,7 @@ while (text === null) {
 
 let mirrored = '|';
 for (const character of text) {
-  mirrored = mirrored + character + mirrored;
+  mirrored = character + mirrored + character;
 }
 
 alert(mirrored);
